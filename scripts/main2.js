@@ -592,6 +592,6 @@ todoForm.addEventListener("submit", function(e) {
 })
 
 console.log(todosId, "-----------", todosId2)
-todoSelect.addEventListener("click", filterFunc)
+todoSelect.addEventListener("change", filterFunc)
 document.addEventListener("DOMContentLoaded", getFromStorage)
 console.log(todosId, "-----------", todosId2)
